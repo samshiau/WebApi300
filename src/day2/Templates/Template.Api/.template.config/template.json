@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Jeff Gonzalez",
+  "classifications": ["Api", "Shopping"],
+  "identity": "Shopping.ApiTemplate.CSharp",
+  "name": "Shopping API Template",
+  "shortName": "shoppingapi",
+  "sourceName": "Template.Api",
+  "preferNameDirectory": true,
+  "symbols": {
+    "openApiName": {
+      "type": "parameter",
+      "isRequired": true,
+      "replaces": "open-api-doc"
+    },
+    "database": {
+      "type": "parameter",
+      "isRequired": true,
+      "replaces": "database-name"
+    }
+  }
+}
