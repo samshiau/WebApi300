@@ -1,0 +1,15 @@
+<Solution>
+    <Folder Name="/AspireHosting/">
+        <Project Path="AspireHosting/AppHost/AppHost.csproj"/>
+    </Folder>
+    <Folder Name="/Services/"/>
+    <Folder Name="/Services/Orders/">
+        <Project Path="Services/Orders/Orders.Api/Orders.Api.csproj"/>
+    </Folder>
+    <Folder Name="/Services/Products/">
+        <Project Path="Services/Products/Products.Api/Products.Api.csproj"/>
+    </Folder>
+    <Folder Name="/Services/_Core/">
+        <Project Path="Services\_Core\ShoppingServiceDefaults\ShoppingServiceDefaults.csproj"/>
+    </Folder>
+</Solution>
